@@ -1,12 +1,13 @@
 branch: master
-description: forward notifications via a POST to a webhook URL, useful for integrating with IFTTT or Zapier
+description: forward notifications via a POST to a webhook URL, useful for integrating
+  with IFTTT or Zapier
 dockerhub: egeoffrey/egeoffrey-notification-webhook
 github: egeoffrey/egeoffrey-notification-webhook
 icon: recycle
 manifest_schema: 2
 modules:
 - notification/webhook:
-    description:  forward notifications to a webhook
+    description: forward notifications to a webhook
     module_configuration:
     - description: The URL of the webhook
       format: string
@@ -17,15 +18,17 @@ modules:
       format: string
       name: house_name_key
       placeholder: house_name
-    - description: The name of the JSON key the severity of the notification will be passed along
+    - description: The name of the JSON key the severity of the notification will
+        be passed along
       format: string
       name: severity_key
       placeholder: severity
-    - description: The name of the JSON key the message of the notification will be passed along
+    - description: The name of the JSON key the message of the notification will be
+        passed along
       format: string
       name: message_key
       placeholder: message
 package: egeoffrey-notification-webhook
-revision: 0
+revision: 1
 tags: notification webhook ifttt zapier
 version: 1.0
