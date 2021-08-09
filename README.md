@@ -61,4 +61,4 @@ notification webhook ifttt zapier
 
 ## Version
 
-The version of this egeoffrey-notification-webhook is 1.0-1 on the master branch.
+The version of this egeoffrey-notification-webhook is 1.1-1 on the master branch.
